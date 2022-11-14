@@ -1,0 +1,26 @@
+.log{
+    margin-left: auto;
+}
+.bt{
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 40px;
+    background-color:blueviolet;
+    border: none;
+    color: white;
+   
+}
+.bgd{
+    background-color: darkmagenta;
+    height: 100vh;
+}
+.ma{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.fo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-top: auto;
+    padding-top:200px;
+}
