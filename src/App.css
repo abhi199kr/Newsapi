@@ -10,7 +10,7 @@
 }
 @media screen and (max-width:480px) {
   .main{
-    height: auto;
+    height:100vh;
   }
   
 }
@@ -30,8 +30,16 @@ body {
   border-radius: 20px;
 }
 @media screen and (max-width:480px) {
+  .signup-box{
+    width: 300px;;
+    
+  }
+  .in{
+    width: 250px;
+  }
   .login-box{
     height: auto;
+    /* width: 200px; */
   }
   .main{
     height: auto;

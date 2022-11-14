@@ -72,13 +72,13 @@ const handleRegistration = () =>
         <label className='h5' htmlFor="">
           Email
         </label>
-        <input type="email" {...register('userid', { required: true })} value={emai} onChange={(e)=>setemail(e.target.value)}  />
+        <input className='in' type="email" {...register('userid', { required: true })} value={emai} onChange={(e)=>setemail(e.target.value)}  />
         {errors.userid && errors.userid.type === "required" && <span className='text-danger h6'>Email is required</span>}
          
        
 
         <label className='h5'> Password</label>
-       <input type="password" id="p1" value={password} {...register('password', { required: true, minLength:8 })}
+       <input className='in' type="password" id="p1" value={password} {...register('password', { required: true, minLength:8 })}
        onChange={e => {
         npassword(e.target.value)
     
