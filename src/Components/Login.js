@@ -77,7 +77,7 @@ const handleRegistration = () =>
          
        
 
-        <label className='h5'>Password</label>
+        <label className='h5'> Password</label>
        <input type="password" id="p1" value={password} {...register('password', { required: true, minLength:8 })}
        onChange={e => {
         npassword(e.target.value)
