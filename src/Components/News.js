@@ -20,9 +20,9 @@ export default function News() {
         console.log("Error",err)
     }
  }
- useEffect(()=>{
-  data()
- },[])
+//  useEffect(()=>{
+//   data()
+//  },[])
 
 //   React.useEfferct(() => {
 //     data()
@@ -33,7 +33,7 @@ export default function News() {
   return (
     <div className="container bgn">
     <h1 className="text-danger n">News</h1>
-    {/* <button onClick={()=>data()}>News</button> */}
+    <button onClick={()=>data()}>News</button>
     <div className="row ">
     {
       post.map((e)=>{
