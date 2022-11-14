@@ -3,7 +3,7 @@ import './App.css';
 import News from './Components/News';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter,HashRouter,Routes,Route } from 'react-router-dom';
 import Dashboard from './Components/Dashboard';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     {/* <News/>
     <Login/>
     <Signup/> */}
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Dashboard/>}/>
         <Route path='/login' element={<Login/>}/>
@@ -21,7 +21,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
    </>
   );
 }
