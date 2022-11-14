@@ -43,10 +43,12 @@ const handleRegistration = () =>
     if (res.length===1)
     {
       // alert("successfully login")
+      alert("Successfully login")
        navi('/news');
      
     }
     else{
+      alert("Your are unauthorized user firstly registered by admin")
       console.log("not allowed")
     }
    
